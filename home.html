@@ -32,15 +32,25 @@
     </ul>
 </nav>
 
+
 <!-- Container com metade texto e metade imagem -->
 <div class="content d-flex flex-row">
     <!-- w-100 = width 100% --> <!-- flex-column = colunas -->
     <div class="d-flex justify-content-start align-items-center position-relative">
         <img class="w-100 z-0"
              src="https://www.thebodyshop.com/cdn/shop/files/hp_hero_mothersday_DT_final.jpg?v=1740585928&width=1950">
-        <p class="position-absolute z-1 ms-4 texto-home">Celebrate the petals & the prickles this Mother's Day</p>
+        <p class="position-absolute z-1 ms-4 texto-home" id=titulo onmousedown="testtexto()" onmouseup="reset()" onmouseover="testcolor()">Celebrate the petals & the prickles this Mother's Day</p>
     </div>
 </div>
+
+
+<form>
+    <label>
+        Mensagens:
+        <input id="input" onmouseover="testinput()">
+    </label>
+</form>
+
 
 <!-- Rodapé -->
 <footer class="footer text-center footer_cor">

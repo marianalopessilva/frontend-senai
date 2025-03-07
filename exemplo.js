@@ -23,6 +23,17 @@ function testinput() {
     document.getElementById("input").value = "Olá"
 }
 
+function limpaInput() {
+    document.getElementById('first-name').value = ""
+    document.getElementById('last-name').value = ""
+    document.getElementById('username').value = ""
+    document.getElementById('city').value = ""
+    document.getElementById('state').value = ""
+    document.getElementById("zip").value = ""
+}
+
+
+
 
 
 

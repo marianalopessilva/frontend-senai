@@ -33,49 +33,56 @@
 </nav>
 
 <form>
-  <div class="form-row">
-    <div class="col-md-3 mb-3 m-3 fonte">
-      <label for="validationServer01">First name</label>
-      <input type="text" class="form-control is-valid" id="validationServer01" placeholder="First name" value="" required>
-    </div>
-    <div class="col-md-3 mb-3 m-3 fonte">
-      <label for="validationServer02">Last name</label>
-      <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Last name" value="" required>
-    </div>
-    <div class="col-md-3 mb-3 m-3 fonte">
-      <label for="validationServerUsername">Username</label>
-      <div class="input-group">
-        <div class="input-group-prepend">
-          <span class="input-group-text" id="inputGroupPrepend3">@</span>
+    <div class="form-row">
+        <div class="col-md-3 mb-3 m-3 fonte">
+            <label for="first-name">First Name</label>
+            <input id="first-name" type="text" class="form-control is-valid" placeholder="First name" value=""
+                   required>
         </div>
-        <input type="text" class="form-control is-invalid" id="validationServerUsername" placeholder="Username" aria-describedby="inputGroupPrepend3" required>
-      </div>
+        <div class="col-md-3 mb-3 m-3 fonte">
+            <label for="last-name">Last Name</label>
+            <input id="last-name" type="text" class="form-control is-valid" placeholder="Last name" value=""
+                   required>
+        </div>
+        <div class="col-md-3 mb-3 m-3 fonte">
+            <label for="username">Username</label>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroupPrepend3">@</span>
+                </div>
+                <input id="username" type="text" class="form-control is-invalid" placeholder="Username"
+                       aria-describedby="inputGroupPrepend3" required>
+            </div>
+        </div>
     </div>
-  </div>
-  <div class="form-row">
-    <div class="col-md-3 mb-3 m-3 fonte">
-      <label for="validationServer03">City</label>
-      <input type="text" class="form-control is-invalid" id="validationServer03" placeholder="City" required>
+    <div class="form-row">
+        <div class="col-md-3 mb-3 m-3 fonte">
+            <label for="city">City</label>
+            <input id="city" type="text" class="form-control is-invalid" placeholder="City" required>
+        </div>
+        <div class="col-md-3 mb-3 m-3 fonte">
+            <label for="state">State</label>
+            <input id="state" type="text" class="form-control is-invalid" placeholder="State" required>
+        </div>
+        <div class="col-md-3 mb-3 m-3 fonte">
+            <label for="zip">Zip</label>
+            <input id="zip" type="text" class="form-control is-invalid" placeholder="Zip" required>
+        </div>
     </div>
-    <div class="col-md-3 mb-3 m-3 fonte">
-      <label for="validationServer04">State</label>
-      <input type="text" class="form-control is-invalid" id="validationServer04" placeholder="State" required>
+    <div class="form-group">
+        <div class="form-check m-3 fonte">
+            <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
+            <label class="form-check-label" for="invalidCheck3">
+                Agree to terms and conditions
+            </label>
+        </div>
     </div>
-    <div class="col-md-3 mb-3 m-3 fonte">
-      <label for="validationServer05">Zip</label>
-      <input type="text" class="form-control is-invalid" id="validationServer05" placeholder="Zip" required>
-    </div>
-  </div>
-  <div class="form-group">
-    <div class="form-check m-3 fonte">
-      <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
-      <label class="form-check-label" for="invalidCheck3">
-        Agree to terms and conditions
-      </label>
-    </div>
-  </div>
-  <button class="btn btn-primary m-3 botao fonte" type="submit">Submit form</button>
+    <button class="btn btn-primary m-3 botao fonte" type="submit">Submit form</button>
+    <div class="btn btn-primary botao-contato text-light" onmousedown="limpaInput()">Limpar</div>
 </form>
+
+
+
 
 <!-- Rodapé -->
 <footer class="footer text-center footer_cor">
