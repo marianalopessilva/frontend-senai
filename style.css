@@ -1,0 +1,35 @@
+
+.footer_cor{
+    background-color: #04593A;
+}
+
+.meu-icone:hover{
+    color: black;
+}
+
+.titulo{
+    color: #04593A;
+    font-family: Snell Roundhand;
+}
+
+.titulo-sobre{
+    color: #04593A;
+    font-family: Snell Roundhand;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.texto-home {
+    font-family: Snell Roundhand;
+    font-weight: bold;
+    font-size: 35px;
+    color: #04593A;
+}
+
+.botao {
+    background-color: #04593A;
+}
+
+.fonte {
+    font-family: Snell Roundhand;
+}
